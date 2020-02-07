@@ -1,0 +1,70 @@
+.c1{
+    position: relative;
+    left:120px;
+    height: 40px;
+    width: 80%;
+    background-color: black;
+    color: white;
+}
+#h1{
+    position: relative;
+    color: rgb(161, 159, 159);
+    left: 50px;
+    top: 10px;
+}
+.c2{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+#h2{
+    position: relative;
+    right: 200px;
+    font-family: Calibri;
+    font-weight: 400;
+    font-size: 30px;
+}
+.c3{
+    width: 740px;
+    height: 165px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: -174px;
+}
+#in1{
+   position: relative;
+   width: 70%;
+   height: 20px;
+   left: 30px;
+   
+}
+#b1{
+    position: relative;
+    left:32px;
+    background-color:rgb(51,122,183);
+    color: cornsilk;
+    height: 27px;
+}
+.box{
+    margin: 40px 0px 0px 0px;
+    position: relative;
+    right: 0px;
+}
+
+#asd:checked ~  label {
+    text-decoration: line-through;
+}
+#div{
+    border: 2px solid rgb(246, 246, 246);
+    border-radius: 3px;
+    font-size: 15px;
+    position: relative;
+    right: 20px;
+    width: 90%;
+}

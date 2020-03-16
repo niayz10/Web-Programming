@@ -1,0 +1,27 @@
+<div>
+<img [id]="product.id" [src]="product.images[0]" height="200px" style="margin:30px; "  />
+<div class="div1">
+<div *ngFor="let image of product.images" >
+<ul *ngIf="product.class">
+  <li><img [src]="image" (click)=" clickOnItem(image)" height="50px"/></li>
+</ul>
+</div>
+</div>
+<h3>
+    <a [title]="product.name + ' details'" href="product.link">
+    {{ product.name }}
+    </a>
+  </h3>
+
+  <p *ngIf="product.description" class="description">
+    Description: {{ product.description }}
+  </p>
+  <div *ngIf="product.rating" style="position:relative; top:-5px;">
+    <button (click)="draw(product.rating)">Rating</button>
+  </div>
+  <button *ngIf="product.link">
+
+   <a style="color:white;" href="tg://msg_url?url=product.link;text=text">Telegram</a>
+   
+  </button>
+</div>

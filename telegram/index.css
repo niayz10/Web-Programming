@@ -1,0 +1,101 @@
+a{
+  text-decoration: none;
+}
+input {
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.Blue {
+  width: 100vw;
+  height: 30vh;
+  background-color: #5682a3;
+}
+.White{
+  width: 100vw;
+  height: 70vh;
+  background-color: #e7ebf0;
+}
+
+.content {
+  max-width: 430px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.BlueOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoTg {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.logoNext{
+  color: white;
+  margin-right: 4px;
+}
+.logoImg {
+  margin-right: 10px;
+}
+
+
+.TheBox {
+  padding: 25px 45px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  font: 13px Open sans, sans-serif;
+}
+.instruction {
+  opacity: 50%;
+}
+#strana{
+  opacity: 50%;
+}
+#kod{
+  opacity: 50%;
+}
+#nomer {
+  opacity: 50%;
+}
+.number {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.inputLeft {
+  width: 20%;
+}
+.inputRight {
+  width: 75%;
+}
+#code {
+  width: 100%;
+}
+#phone-number {
+  width: 100%;
+}
+
+.BottomTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #84a2bc;
+}
+.Learn-more{
+  color: #84a2bc;
+}
+

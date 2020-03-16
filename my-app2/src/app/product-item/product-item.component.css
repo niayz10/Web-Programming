@@ -1,0 +1,9 @@
+
+.div1{
+    display: flex;
+    flex-wrap:wrap;
+}
+img:hover { zoom: 2; }
+.description {
+    max-width: 250px;
+}

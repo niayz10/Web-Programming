@@ -1,0 +1,21 @@
+p {
+  font-family: Lato;
+}
+app-product-item {
+  min-width: 500px;
+  max-width: 500px;
+
+}
+.nav{
+  background-color: #369;
+  color: rgb(204, 224, 233);
+  width: 100px;
+  height: 30px;
+  position: relative;
+  margin-left: 20px;
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

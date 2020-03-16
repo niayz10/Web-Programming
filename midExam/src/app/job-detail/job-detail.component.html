@@ -1,0 +1,12 @@
+
+<label>title:
+    <input [(ngModel)]="job.title" placeholder="title"/>
+ </label>
+<h4>title:{{job.title}}</h4>
+<label>description:
+    <input [(ngModel)]="job.description" placeholder="description"/>
+ </label>
+<p>description:{{job.description}}</p>
+
+<p> Like_number:{{job.like_count}}</p>
+<button (click)='plus()'>Like</button>

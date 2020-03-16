@@ -1,0 +1,10 @@
+.div1{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.div1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

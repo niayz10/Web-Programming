@@ -1,0 +1,10 @@
+<h1 id="h">{{title}}</h1>
+
+<div class="cat">
+    <a *ngFor="let category of categories" class="lin"
+    routerLink="/category/{{category.id}}/products">
+  <div class="nam">
+    <h4 id="h4">{{category.name}}</h4>
+  </div>
+</a>
+</div>

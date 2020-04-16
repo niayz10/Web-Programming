@@ -48,5 +48,17 @@ def vacancy_detail(request, vacancy_id):
 
 def top_ten(request):
     vacancies = Vacancy.objects.all().order_by('-salary')
-    vacancies_json=[vacancy.to_json() for vacancy in vacancies]
+    vacancies_json = [vacancy.to_json() for vacancy in vacancies]
     return JsonResponse(vacancies_json[:10], safe=False)
+
+
+def company_flt(request):
+    companies = Company.objects.filter(name__startswith='a')
+    companies_json = [x.to_json() for x in companies]
+    return JsonResponse(companies_json, safe=False)
+
+
+def vacancies_flt(request):
+    vacancies = Vacancy.objects.filter(salary__gte=1000).order_by('-salary')
+    vacancies_json = [x.to_json() for x in vacancies]
+    return JsonResponse(vacancies_json, safe=False)
